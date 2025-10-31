@@ -3,21 +3,18 @@
 
 Ubuntu/Debian:
 ```sh
-sudo apt update
 sudo apt install -y openssl netcat-openbsd dnsutils telnet coreutils dos2unix
 ```
 
 CentOS/RHEL:
 
 ```sh
-sudo yum update
 sudo yum install -y openssl nc bind-utils telnet coreutils dos2unix
 ```
 
 Termux (Android):
 
 ```sh
-pkg update
 pkg install openssl netcat-openbsd dnsutils telnet coreutils dos2unix
 ```
 
